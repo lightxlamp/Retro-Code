@@ -1,0 +1,100 @@
+h1 a
+{
+  font-size: 28px;
+  display: block;
+  width: 233px;
+  height: 77px;
+  background: url("Images/logo.jpg") no-repeat; 
+  position:absolute;
+  left:185px;
+  top:273px;
+  text-indent: -999em;
+}
+
+body
+{ 
+	background-image: url("Images/background.png");
+	background-repeat: repeat;
+	background-color: white;		
+}
+
+
+ul 
+{
+list-style-type: none; /* remove list bullets */
+margin: 0; /* remove margin */
+padding: 0; /* remove padding */
+position:absolute;
+left:444px;
+top:251px;
+}
+
+ul li 
+{
+float: left; /* make list horizontal */
+
+}
+
+li a
+{
+/*border: 1px dashed blue;*/
+display: block; /* <a> is inline element so convert to block element */
+width: 97px;
+height: 100px;
+text-align:center;
+
+padding-top: 76px;
+font-family: "arial";
+font-size: 14pt;
+text-decoration: none; 
+color: white;
+
+}
+
+li.about a 
+{
+background: url("Images/about-off.jpg") no-repeat; 
+
+
+}
+
+li.about a:hover { /* use "a:hover" to specify mouse-over styles */
+background: url("Images/about-on.jpg") no-repeat;
+}
+
+
+li.portfolio a 
+{
+background: url("Images/portfolio-off.jpg") no-repeat;
+text-align: center
+												/*a.portfolio {margin-top: 5cm}*/
+}
+
+li.portfolio a:hover	 /* use "a:hover" to specify mouse-over styles */
+{  
+background: url("Images/portfolio-on.jpg") no-repeat;
+}
+
+
+li.services a 
+{
+background: url("Images/services-off.jpg") no-repeat;
+
+}
+
+li.services a:hover	 /* use "a:hover" to specify mouse-over styles */
+{  
+background: url("Images/services-on.jpg") no-repeat;
+}
+
+
+li.contact a 
+{
+background: url("Images/contact-off.jpg") no-repeat;
+
+}
+
+li.contact a:hover	 /* use "a:hover" to specify mouse-over styles */
+{  
+background: url("Images/contact-on.jpg") no-repeat;
+}
